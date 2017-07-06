@@ -1,0 +1,76 @@
+<html ng-app="ionicApp">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+      <title>Tim Varejo Chat</title>
+      <link href="css/ionic.app.min.css" rel="stylesheet">
+      <script src="js/ionic.bundle.js"></script>
+      <script src="js/app.js"></script>
+      <link href="css/custom.css" rel="stylesheet">
+   </head>
+   <body ng-controller="Messages">
+      <ion-pane "class="messaging-view">
+         <ion-header-bar class="bar-positive">
+            <div class="row">
+               <div class="col col-4"></div>
+               <div class="col col-4 col-center">
+                  <img class="logoTim" src="img/logoTim.png">
+               </div>
+               <div class="col col-4"></div>
+            </div>
+         </ion-header-bar>
+         <ion-content class="content-stable">
+            <div class="row">
+               <div class="col col-100">
+                  <div class="messagesTim">
+                     <img class="pictureChat" src="img/tim.png">
+                     <span class="tim"> Olá. Para finalizar seu pedido, você confirma que é o José da Silva portador do CPF [...] está fazendo uma migração para o plano TIM Black por R$99,00 mensais? Se estiver de acordo, diga: "Sim, confirmo e concordo"</span>
+                  </div>
+               </div>
+            </div>
+                                    <div class="row">
+               <div class="col col-100">
+                  <span class="timeTim">Hoje às 16:33</span>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col col-100">
+                  <div class="messagesUser">
+                     <span class="user"> Sim, confirmo e concordo</span>
+                     <img class="pictureChat" src="img/user.png">
+                  </div>
+               </div>
+            </div>
+                        <div class="row">
+               <div class="col col-100">
+                  <span class="timeUser">Hoje às 16:33</span>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col col-100">
+                  <div class="messagesTim">
+                     <img class="pictureChat" src="img/tim.png">
+                     <span class="tim">Obrigado por escolher a TIM</span>
+                  </div>
+               </div>
+            </div>
+                                    <div class="row">
+               <div class="col col-100">
+                  <span class="timeTim">Hoje às 16:34</span>
+               </div>
+            </div>
+         </ion-content>
+         <ion-footer-bar keyboard-attach class="bar-stable item-input-inset">
+            <div class="row">
+               <div class="col col-4"></div>
+               <div class="col col-4 col-center">
+                  <button class="button button-clear">
+                  <img class="buttonMic" src="img/buttonMic.png">
+                  </button>
+               </div>
+               <div class="col col-4"></div>
+            </div>
+         </ion-footer-bar>
+      </ion-pane>
+   </body>
+</html>

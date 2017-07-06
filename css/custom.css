@@ -13,6 +13,7 @@
 
 .buttonMic{
   height: 55px;
+  margin-top: 10px;
 }
 
 .col-center{
@@ -94,7 +95,7 @@
   text-align: left;
   max-width: 100%;
   margin: 0 10px 0 10px;
-  font-size: 14px;
+  font-size: 1.2em;
 }
 
 .tim {
@@ -104,9 +105,9 @@
   padding: 10px;
   border-radius: 10px;
   text-align: left;
-  max-width: 100%;
-  margin: 0 10px 0 10px;
-  font-size: 14px;
+  max-width: 80%;
+  margin: 0px 10px 0px 10px;
+  font-size: 1.2em;
 }
 
 .timeTim {
@@ -114,10 +115,10 @@
     display: inline-block;
     padding-bottom: 10px;
     text-align: left;
-    max-width: 100%;
+    max-width: 80%;
     float: left;
-    margin: -10 10px 0 55px;
-    font-size: 12px;
+    margin: -10px 10px 0px 55px;
+    font-size: 1.1em;
 }
 
 .timeUser {
@@ -127,7 +128,7 @@
     text-align: left;
     max-width: 100%;
     float: right;
-    margin: -10 55px 0 0px;
-    font-size: 12px;
+    margin: -10px 55px 0px 0px;
+    font-size: 1.1em;
 }
 

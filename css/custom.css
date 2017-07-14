@@ -13,7 +13,16 @@
 
 .buttonMic{
   height: 55px;
-  margin-top: 10px;
+  width: 55px;
+  background:url("../img/buttonMic.png"); 
+  background-size: cover;
+}
+
+.buttonMicRecording{
+  height: 55px;
+  width: 55px;
+  background:url("../img/buttonMicRecording.png"); 
+  background-size: cover;
 }
 
 .col-center{
@@ -93,7 +102,7 @@
   padding: 10px;
   border-radius: 10px;
   text-align: left;
-  max-width: 100%;
+  max-width: 80%;
   margin: 0 10px 0 10px;
   font-size: 1.2em;
 }

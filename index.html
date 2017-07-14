@@ -41,8 +41,8 @@
             <div class="row">
                <div class="col col-100">
                   <div class="messagesUser">
-                     <span class="user"> Sim, confirmo e concordo</span>
-                     <img class="pictureChat" src="img/user.png">
+                     <span class="user right"> Sim, confirmo e concordo</span>
+                     <img class="pictureChat right" src="img/user.png">
                   </div>
                </div>
             </div>
@@ -69,9 +69,7 @@
             <div class="row">
                <div class="col col-4"></div>
                <div class="col col-4 col-center">
-                  <button class="button button-clear">
-                  <img class="buttonMic" src="img/buttonMic.png">
-                  </button>
+                   <button id="buttonMic" class="button buttonMic" ng-model="button" ng-click="button.clicked=!button.clicked" ng-class="button.clicked?'buttonMicRecording':'buttonMic'">
                </div>
                <div class="col col-4"></div>
             </div>

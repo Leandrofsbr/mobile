@@ -1,0 +1,72 @@
+body{
+    background-color: #660099;
+}
+
+.container{
+    margin-left: 30px;
+}
+
+.medium{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    color: #FFFFFF;
+}
+
+.light{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+
+
+.h1 {
+    font-size: 32px;
+    line-height: 1.25;
+    letter-spacing: -1.5px;
+
+  }
+  
+  .h4 {
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: normal;
+  }
+
+  
+  .h5 {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: normal;
+  }
+  
+  .h6 {
+    font-size: 13px;
+    line-height: normal;
+    letter-spacing: 0.5px;
+  }
+  
+  .black {
+    color: #000000;
+  }
+
+  .white {
+    color: #FFFFFF;
+  }
+  
+  .purple {
+    color: #660099;
+  }
+
+  .grey {
+    color: #888888;
+  }
+
+  .lowerCase{
+    text-transform: lowercase;
+  }
+
+  .upperCase{
+    text-transform: uppercase;
+}
